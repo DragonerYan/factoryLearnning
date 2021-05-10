@@ -33,5 +33,6 @@ public class worker extends builder{
     @Override
     protected void getP() {
         System.out.println("git 提交测试");
+        System.out.println("git change remote branch");
     }
 }
