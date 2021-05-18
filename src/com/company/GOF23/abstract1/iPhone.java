@@ -1,4 +1,4 @@
-package com.company.abstract1;
+package com.company.gof23.abstract1;
 
 public interface iPhone {
     void start();

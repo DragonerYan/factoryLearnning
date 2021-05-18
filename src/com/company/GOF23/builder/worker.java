@@ -1,14 +1,11 @@
-package com.company.builder;
+package com.company.gof23.builder;
 
-import java.sql.SQLOutput;
+import com.company.gof23.builder.builder;
 
 public class worker extends builder{
 
     private product product;
 
-    public worker() {
-        product =new product();
-    }
 
     @Override
     void builderA() {
@@ -34,5 +31,6 @@ public class worker extends builder{
     protected void getP() {
         System.out.println("git 提交测试");
         System.out.println("git change remote branch");
+        System.out.println("");
     }
 }

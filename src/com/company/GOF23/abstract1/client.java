@@ -1,6 +1,4 @@
-package com.company.abstract1;
-
-import sun.awt.geom.AreaOp;
+package com.company.gof23.abstract1;
 
 public class client {
     public static void main(String[] args) {

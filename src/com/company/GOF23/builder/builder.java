@@ -1,4 +1,4 @@
-package com.company.builder;
+package com.company.gof23.builder;
 
 public abstract class builder {
     abstract void builderA();
