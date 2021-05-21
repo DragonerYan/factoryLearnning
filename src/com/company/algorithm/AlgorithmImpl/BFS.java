@@ -1,5 +1,5 @@
 package com.company.algorithm.AlgorithmImpl;
 
-public class BFS {
+public class BFS{
 
 }
