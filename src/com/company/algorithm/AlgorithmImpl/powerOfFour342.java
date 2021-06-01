@@ -21,5 +21,9 @@ public class powerOfFour342 {
 
     public static void main(String[] args) {
         System.out.println(isPowerOfFour(20));
+        int a=4>>2;
+        int b=13;
+        int c=12;
+        System.out.println(a+" "+(b&c)+" "+(b|c)+" "+(~c)+" "+(b^c));
     }
 }
