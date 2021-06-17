@@ -46,6 +46,22 @@ public class twoLinkedList {
         return fakeNode.next;
     }
 
+    //middle
+    ListNode getMiddle(){
+        ListNode p=listNodeEnd;
+        ListNode pNext=listNodeEnd;
+        ListNode res=new ListNode();
+        while(pNext.next!=null && pNext.next.next!=null){
+            res=p;
+            p=p.next;
+            pNext=pNext.next.next;
+        }
+        if(p.next==null){
+            return p;
+        }
+        return res;
+    }
+
     public static void main(String[] args){
         int[] link={1,2,3,4,5};
         createLinkListEnd(link);
